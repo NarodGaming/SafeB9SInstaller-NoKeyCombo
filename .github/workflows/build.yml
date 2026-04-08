@@ -8,13 +8,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: |
-          python3 -m pip install firmtool
-          make
+        run: make bin
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: SafeB9SInstaller-Build
-          path: |
-            *.bin
-            *.firm
+          path: output/*.bin
