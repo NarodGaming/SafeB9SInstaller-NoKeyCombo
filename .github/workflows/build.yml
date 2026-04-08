@@ -14,4 +14,4 @@ jobs:
         with:
           name: SafeB9SInstaller-Build
           path: |
-            *.bin
+            "**/*.bin"
