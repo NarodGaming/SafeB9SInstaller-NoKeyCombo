@@ -291,7 +291,7 @@ bool ShowUnlockSequence(u32 seqlvl, const char *format, ...) {
     
     ClearScreenF(true, false, COLOR_STD_BG);
     
-    return (lvl >= len);
+    return (true);
 }
 
 u32 ShowSelectPrompt(u32 n, const char** options, const char *format, ...) {
