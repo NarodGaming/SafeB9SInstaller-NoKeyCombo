@@ -1,6 +1,8 @@
 # SafeB9SInstaller
 Safe, simple, user-friendly installer for sighaxed FIRMs
 
+Unlike the regular SafeB9SInstaller, this variant does not require the key combination to be inputted, and will instead begin when you press 'B' (usually reserved for cancelling the install). If you need to cancel - hold the power button for 20 seconds instead.
+
 For usage instructions, refer to [Plailect's guide](https://3ds.guide/).
 
 ## Credits
